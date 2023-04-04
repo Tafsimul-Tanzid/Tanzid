@@ -34,8 +34,13 @@ let header = document.querySelector('header');
 header.classList.toggle('sticky', window.scrollY > 100);
 
 // remove toggle icon and navbar
+<<<<<<< HEAD
 menuIcon.classList.remove('bx-x');
 navbar.classList.remove('active'); 
+=======
+ menuIcon.classList.remove('bx-x');
+navbar.classList.remove('active');
+>>>>>>> 8bee9d183f99034cc2e2dac03039756c440f49bd
 };
 // reveal scroll
 ScrollReveal({
